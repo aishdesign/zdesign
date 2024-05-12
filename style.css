@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: white;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: left;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    max-width: fit-content;
+    margin-inline:auto;
+    background-color:rgb(53, 25, 53);
+    text-align:left;
+    margin-top: 3px;
+}
+
+.text{
+    margin-right: 20px;
+}
+.sights{
+    color: rgb(183, 127, 235);
+}
+
+.discover{
+    color: #fff;
+    margin-top: 20px;
+    font-family: Helvetica;
+    font-size: 13px;
+    margin-left: 40px;
+    line-height: 22px;
+}
+
+h1{
+    color: #fff;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+ul li{
+    display: flex;
+    float: left;
+    border-spacing: 10px;
+    list-style-type: none;
+    margin-top: 40px;
+    color: #fff;
+    margin-left: 40px;
+    align-content: center;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+@media (max-width:600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        background-color: white;
+        width: 100%;
+    }
+
+    .text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .container{
+        align-items: left;
+        justify-content:space-between;
+        flex-direction: column;
+        max-width: fit-content;
+        margin-inline:auto;
+        background-color:rgb(68, 32, 68);
+        text-align:left;
+        
+    }
+    .sights{
+        color: rgb(183, 127, 235);
+    }
+    
+    .discover{
+        color: #fff;
+        margin-top: 20px;
+        font-family: Helvetica;
+        font-size: 13px;
+        margin-left: 40px;
+        line-height: 22px;
+    }
+    
+    h1{
+        color: #fff;
+        margin-top: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    
+    ul li{
+        display: block;
+        float: none;
+        border-spacing: 10px;
+        list-style-type: none;
+        margin-top: 40px;
+        color: #fff;
+        margin-left: 40px;
+        align-content: center;
+        justify-content: center;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 15px;
+        line-height: 20px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}
+    
